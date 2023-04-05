@@ -1,0 +1,45 @@
+.start-section {
+    background-image: url("/assets/images/bg.png");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    position: relative;
+    margin-bottom: 120px;
+}
+.start-section__content {
+    position: absolute;
+    bottom: 80px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    color: #fff;
+}
+.start-section__left {
+    width: 880px;
+}
+.start-section__right {
+    width: 496px;
+}
+.start-section__title {
+    font-size: 96px;
+    line-height: 88%;
+    margin-bottom: 40px;
+}
+.start-section__subtitle {
+    font-size: 52px;
+    line-height: 110%;
+}
+.start-section__info {
+    font-size: 24px;
+    margin-bottom: 40px;
+    line-height: 120%;
+}
+.start-section__link {
+    font-size: 24px;
+}
+.start-section__link span::after {
+    bottom: -8px;
+}

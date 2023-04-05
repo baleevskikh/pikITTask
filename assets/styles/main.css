@@ -1,0 +1,17 @@
+@import "reset.css";
+@import "../fonts/fonts.css";
+@import "components.css";
+@import "header.css";
+@import "start_section.css";
+@import "about_section.css";
+@import "how_section.css";
+
+body {
+    font-family: "Mont", sans-serif;
+    font-weight: 600;
+    background-color: #fff;
+    border-bottom: 32px solid;
+    border-image: linear-gradient(270deg, #FF2D7F -0.71%, #FB3727 47.63%, #FEEA0F 100%);
+    border-image-slice: 1;
+}
+
